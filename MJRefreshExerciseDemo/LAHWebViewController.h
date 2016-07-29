@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LAHWebViewController.h
 //  MJRefreshExerciseDemo
 //
 //  Created by 王超 on 16/7/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LAHWebViewController : UIViewController
 
 @end
-
