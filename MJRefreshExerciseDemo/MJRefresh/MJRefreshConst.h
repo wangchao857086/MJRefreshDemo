@@ -33,7 +33,7 @@
 #define MJRefreshSrcName(file) [@"MJRefresh.bundle" stringByAppendingPathComponent:file]
 #define MJRefreshFrameworkSrcName(file) [@"Frameworks/MJRefresh.framework/MJRefresh.bundle" stringByAppendingPathComponent:file]
 
-// 常量
+// 常量   在多个文件中经常使用的同一个字符串常量，可以使用extern与const组合。
 UIKIT_EXTERN const CGFloat MJRefreshHeaderHeight;
 UIKIT_EXTERN const CGFloat MJRefreshFooterHeight;
 UIKIT_EXTERN const CGFloat MJRefreshFastAnimationDuration;
