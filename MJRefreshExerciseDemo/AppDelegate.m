@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LAHWebViewController.h"
+#import "BmobSDK/Bmob.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Bmob registerWithAppKey:@"d1f7933e0e2f581afd9e8a1254cc36b7"];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     LAHWebViewController * root = [[LAHWebViewController alloc]init];
     self.window.rootViewController = root;
